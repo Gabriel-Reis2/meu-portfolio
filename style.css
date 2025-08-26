@@ -1,0 +1,136 @@
+/* style.css */
+/* Autor: Gabriel dos Reis Andrade */
+/* Estilo único para todas as páginas do portfólio */
+
+/* Reset básico para evitar diferenças entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f6fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(90deg, #005bea 0%, #3ec6e0 100%);
+  color: #fff;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Menu de navegação */
+nav {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 16px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+nav a {
+  color: #005bea;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+  background: #e3f0fa;
+  color: #222;
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+}
+
+main h2 {
+  color: #005bea;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+main p {
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+}
+
+/* Formulário de Contato */
+.form-contato {
+  max-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #f8f8f8;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.form-contato label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.form-contato input,
+.form-contato textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1em;
+  resize: vertical;
+}
+
+.form-contato button {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.form-contato button:hover {
+  background: #005fa3;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 18px 0;
+  background: #f0f4f8;
+  color: #888;
+  font-size: 1rem;
+  margin-top: 40px;
+  border-top: 1px solid #e0e0e0;
+}
